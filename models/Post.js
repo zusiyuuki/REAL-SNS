@@ -6,7 +6,7 @@ const PostSchema =new mongoose.Schema({
     },
     desc:{
         type:String,
-        mmax:200,
+        max:200,
 
     },
     img:{
