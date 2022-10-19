@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "real-sns",
   "main": "server.js",
+  "engines": {
+    "node":"16.13.2",
+    "npm":"8.1.2"
+  },
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+
   },
   "author": "y.zushi",
   "license": "ISC",
